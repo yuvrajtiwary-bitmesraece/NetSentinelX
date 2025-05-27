@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 Below is the final comparison of classification reports provided by different models
 
-![Final Comparison](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/NetSentinelX/main/Final%20Comparison.png)  
+![final comparison](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/NetSentinelX/main/final%20comparison.png)  
 
 ## Thank You
 
