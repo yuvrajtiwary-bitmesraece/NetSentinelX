@@ -50,9 +50,53 @@ NetSentinelX/
 │
 ├── data/                     # Dataset files (raw and processed)  
 ├── notebooks                 # Jupyter notebooks with code and analysis  
-├── reports/                  # Classification reports and plots  
+├── reports                   # Classification reports and plots  
 ├── requirements.txt          # Dependencies  
 ├── README.md                 # Project overview and instructions  
 └── LICENSE                   # License file  
-
 ```
+
+## Installation
+
+1. **Clone the repo:**
+```
+git clone https://github.com/yuvrajtiwary-bitmesraece/NetSentinelX.git
+cd NetSentinelX
+```
+
+2. **Create a virtual environment (recommended):**
+```
+python3 -m venv venv
+source venv/bin/activate   # For Windows: venv\Scripts\activate
+```
+
+3. **Install dependencies:**
+```
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Prepare the data: Place the NSL-KDD dataset files inside data/ folder.
+2. Run preprocessing script or notebook to clean and encode data.
+3. Train models by running training scripts/notebooks.
+4. Evaluate and visualize results using evaluation scripts/notebooks.
+
+## Results
+
+**Model performances on test set (Anomaly detection):**
+```
+- XGBoost: High precision, recall, and F1-score.
+- Random Forest: Balanced accuracy and robustness.
+- SVM, KNN: Competitive but less performant.
+- Elliptic Envelope: Unsupervised baseline.
+```
+
+Below is the final comparison of classification reports provided by different models
+
+![Final Comparison](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/NetSentinelX/main/Final%20Comparison.png)  
+
+## Thank You
+
+Grateful for your time and attention — it truly means a lot!
+
